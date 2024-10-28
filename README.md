@@ -7,3 +7,4 @@ This project is about making a web with grid
 
 ***  
 ## Github-Pages 
+https://inma0711.github.io/CSS-Grid-Exercise/
