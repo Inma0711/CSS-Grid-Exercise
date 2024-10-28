@@ -1,11 +1,42 @@
-.largePhoto {
-    
+body {
+  margin-block: 1rem;
+  margin-inline: 5rem;
 }
 
-.mediumPhoto{
-
+img {
+  max-width: 100%;
+  min-height: 100%;
 }
 
-.smallPhoto {
+.header {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
 
+.main {
+  display: grid;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-block-start: 1rem;
+  gap: 1rem;
+}
+
+.photoReptileBigVertical {
+  grid-column-start: 3;
+  grid-column-end: span 2; 
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+.photoReptileMedium {
+  grid-column-start: 1;
+  grid-column-end: span 2; 
+  grid-row-start: 2; 
+}
+
+.photoReptileBigHorizontal {
+  grid-column-start: 3;
+  grid-column-end: span 3; 
+  grid-row-start: 3; 
 }
